@@ -11,6 +11,11 @@ jobs:
     steps:
       - name: Step1
         run: echo Hello World
-
+      
+      - name: Step 2 lets chueckout
+        uses: actions/checkout@3
+        
+        
+        
 
         
