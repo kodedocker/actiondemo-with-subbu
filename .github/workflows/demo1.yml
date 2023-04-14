@@ -1,6 +1,9 @@
 name: First Action
 
 on: 
+  push:
+    branches: 
+      - main
   workflow_dispatch:
   
 
@@ -13,7 +16,7 @@ jobs:
         run: echo Hello World
       
       - name: Step 2 lets chueckout
-        uses: actions/checkout@3
+        uses: actions/checkout@v3
         
         
         
